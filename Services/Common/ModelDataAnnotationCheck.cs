@@ -11,7 +11,7 @@ namespace Axios.Services.Common
     {
         void ValidateModel<TDomainModel>(TDomainModel domainModel)
         {
-            ICollection<ValidationResult> validationResultsList = new List<ValidationResult>;
+            ICollection<ValidationResult> validationResultsList = new List<ValidationResult>();
             ValidationContext validationContext = new ValidationContext(domainModel, null, null);
             StringBuilder stringBuilder = new StringBuilder();
 
