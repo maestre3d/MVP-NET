@@ -8,7 +8,7 @@ using Axios.Services.Common;
 
 namespace Axios.Services
 {
-    class UserService : IUserService, IUserRepository
+    public class UserService : IUserService, IUserRepository
     {
         private IUserRepository _userRepository;
         private IModelDataAnnotationCheck _modelDataAnnotationCheck;

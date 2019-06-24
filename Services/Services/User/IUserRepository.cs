@@ -7,7 +7,7 @@ using Axios.Domain;
 
 namespace Axios.Services
 {
-    interface IUserRepository
+    public interface IUserRepository
     {
         void Add(UserModel user);
         void Update(UserModel user);

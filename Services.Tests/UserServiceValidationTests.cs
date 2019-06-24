@@ -3,12 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Axios.Domain;
 
-namespace Axios.Services
+namespace Axios.Services.Tests
 {
-    public interface IUserService
+    class UserServiceValidationTests
     {
-        void ValidateModel(UserModel userModel);
     }
 }

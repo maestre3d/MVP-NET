@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Axios.Services.Common
 {
-    interface IModelDataAnnotationCheck
+    public interface IModelDataAnnotationCheck
     {
         void ValidateModel<TDomainModel>(TDomainModel domainModel);
     }

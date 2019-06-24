@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Axios.Services.Tests
+namespace Infrastructure.DataAccess.Repositories.Specific.User
 {
-    public class Class1
+    class UserRepository
     {
     }
 }
